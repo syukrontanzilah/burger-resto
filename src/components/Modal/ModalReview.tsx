@@ -6,7 +6,7 @@ const ModalReview = () => {
   const router = useRouter();
   return (
     <>
-      <div className="fixed bottom-0 left-0 right-0 bg-white  w-2/3 mx-auto border">
+      <div className="fixed bottom-0 left-0 right-0 bg-white  md:w-2/3 mx-auto border">
       <div className="bg-gray-100 p-6">
         <div className="flex justify-between text-sm text-gray-600">
           <span>Subtotal</span>

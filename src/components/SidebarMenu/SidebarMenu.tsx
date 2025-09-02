@@ -30,7 +30,7 @@ const SidebarMenu = () => {
                   <Link href={menu.href} passHref>
                     <div
                       onClick={() => handleDropdownToggle(menu.label)}
-                      className={`flex items-center justify-center lg:justify-start gap-2 py-0 md:px-2 rounded-md transition-all durat300 cursor-pointer 
+                      className={`flex items-center justify-center lg:justify-start gap-2 py-0  rounded-md transition-all durat300 cursor-pointer 
                         border-1
                         border-gray-100
                         mb-2 h-[100px]
@@ -41,8 +41,9 @@ const SidebarMenu = () => {
                 }`}
                       style={{ transition: "all 0.3s ease-in-out" }}
                     >
-                      <img src={menu.icon} alt="burger" className="w-[60px]" />
-                      <span className="text-[20px]">{menu.label}</span>
+                      <div className={`hidden md:block w-1 h-1/3 rounded-full transition ${isActive ? "bg-primary" : "bg-transparent"}`}></div>
+                      <img src={menu.icon} alt="burger" className="md:w-[60px] w-[55px]" />
+                      <span className="text-[20px] hidden md:block">{menu.label}</span>
                     </div>
                   </Link>
                 </div>

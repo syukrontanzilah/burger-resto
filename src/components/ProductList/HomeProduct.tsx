@@ -3,10 +3,10 @@ import React from 'react'
 
 const HomeProduct = () => {
   return (
-     <div className="grid grid-cols-3 gap-6">
+     <div className="grid md:grid-cols-3 gap-6">
             {/* Item 1 - Hot */}
             <div className="flex flex-col">
-              <div className="relative bg-[#FDFBF7] rounded-2xl p-4 flex flex-col items-center">
+              <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
                 {/* Badge */}
                 <div className="absolute top-3 -left-2">
                   <div className="relative bg-red-500 text-white text-xs font-semibold px-3 py-1 rounded-tr-md rounded-br-md rounded-tl-md">
@@ -31,7 +31,7 @@ const HomeProduct = () => {
 
             {/* Item 2 */}
             <div className="flex flex-col ">
-              <div className="relative bg-[#FDFBF7] rounded-2xl p-4 flex flex-col items-center">
+              <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
                 <div className="absolute top-3 -left-2">
                   <div className="relative  bg-orange-500 text-white text-xs font-semibold px-3 py-1 rounded-tr-md rounded-br-md rounded-tl-md">
                     Best Seller
@@ -56,7 +56,7 @@ const HomeProduct = () => {
 
             {/* Item 3 */}
             <div className="flex flex-col ">
-              <div className="relative bg-[#FDFBF7] rounded-2xl p-4 flex flex-col items-center">
+              <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
                 <img
                   src="/burger6.png"
                   alt="Chicken Sandwich"

@@ -47,10 +47,10 @@ const Breakfast = () => {
       </div>
 
       {/* Food List */}
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-52">
+      <div className="grid md:grid-cols-3 gap-4 mb-52">
         {/* Item 1 */}
-        <div className="flex flex-col ">
-          <div className="relative bg-[#FDFBF7] rounded-2xl p-4 flex flex-col items-center">
+        <div className="flex flex-col mb-2">
+          <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
             {/* Badge */}
             <div className="absolute top-3 -left-2">
               <div className="relative  bg-orange-500 text-white text-xs font-semibold px-3 py-1 rounded-tr-md rounded-br-md rounded-tl-md">
@@ -76,8 +76,8 @@ const Breakfast = () => {
         </div>
 
         {/* item 2 */}
-        <div className="flex flex-col ">
-          <div className="relative bg-[#FDFBF7] rounded-2xl p-4 flex flex-col items-center">
+        <div className="flex flex-col mb-2">
+          <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
             {/* Badge */}
             <div className="absolute top-3 -left-2">
               <div className="relative  bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-tr-md rounded-br-md rounded-tl-md">
@@ -101,8 +101,8 @@ const Breakfast = () => {
         </div>
 
         {/* Item 3  */}
-        <div className="flex flex-col ">
-          <div className="relative bg-[#FDFBF7] rounded-2xl p-4 flex flex-col items-center">
+        <div className="flex flex-col mb-2">
+          <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
             <div className="absolute top-3 right-3 bg-orange-500 text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center">
               2
             </div>
@@ -120,8 +120,8 @@ const Breakfast = () => {
         </div>
 
         {/* Item 4 */}
-        <div className="flex flex-col ">
-          <div className="relative bg-[#FDFBF7] rounded-2xl p-4 flex flex-col items-center">
+        <div className="flex flex-col mb-2">
+          <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
             <div className="absolute top-3 right-3 bg-orange-500 text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center">
               1
             </div>
@@ -139,8 +139,8 @@ const Breakfast = () => {
         </div>
 
         {/* Item 5  */}
-        <div className="flex flex-col ">
-          <div className="relative bg-[#FDFBF7] rounded-2xl p-4 flex flex-col items-center">
+        <div className="flex flex-col mb-2">
+          <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
             <img
               src="/salads.png"
               alt="Salad"
@@ -155,8 +155,8 @@ const Breakfast = () => {
         </div>
 
         {/* Item 6  */}
-        <div className="flex flex-col ">
-          <div className="relative bg-[#FDFBF7] rounded-2xl p-4 flex flex-col items-center">
+        <div className="flex flex-col mb-2">
+          <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
             <img
               src="/sides.png"
               alt="Chicken Sandwich"

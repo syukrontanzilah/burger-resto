@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="bg-gray-100">
-          <div className=" w-2/3 mx-auto border bg-red-400">
+          <div className="md:w-2/3 mx-auto border">
             {children}
           </div>
         </div>

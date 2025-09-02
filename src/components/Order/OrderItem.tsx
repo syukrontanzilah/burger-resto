@@ -38,7 +38,7 @@ const OrderItem: React.FC<OrderItemProps> = ({
             className="w-full h-full object-cover"
           />
           {/* gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#803059]/10 via-[#803059]/20 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#FFF9E6]/60 via-[#FFF9E6]/20 to-transparent" />
         </div>
         <div className="flex flex-col justify-center">
           <h3 className="text-lg font-semibold">{title}</h3>

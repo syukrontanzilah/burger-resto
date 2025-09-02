@@ -8,7 +8,7 @@ const ModalCheckoutList = () => {
 
   return (
     <>
-      <div className="fixed bottom-0 left-0 right-0 bg-white  w-2/3 mx-auto border z-50">
+      <div className="fixed bottom-0 left-0 right-0 bg-white  md:w-2/3 mx-auto border z-50">
         {/* Buttons */}
         <div className="flex gap-2 items-center justify-between p-6">
           <div className="flex gap-2">

@@ -15,7 +15,7 @@ const HomePage = () => {
         <div className="space-y-3">
           <h2 className="text-lg font-semibold">Today’s specials</h2>
 
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid md:grid-cols-2 gap-3">
             {/* Card 1 */}
             <div className="relative rounded-2xl overflow-hidden">
               <img
