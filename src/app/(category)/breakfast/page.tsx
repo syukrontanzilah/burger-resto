@@ -2,11 +2,13 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import BannerBurger from "@/components/Banner/BannerBurger";
+import DrawerCheckoutList from "@/components/Modal/DrawerCheckoutList";
 import ModalCheckoutList from "@/components/Modal/ModalChekoutList";
 import React, { useState } from "react";
 
 const Breakfast = () => {
   const [activeTab, setActiveTab] = useState("Beef");
+  const [openDrawer, setOpenDrawer] = useState(false);
 
   const tabs = [
     { label: "All", value: "All" },
@@ -50,7 +52,9 @@ const Breakfast = () => {
       {/* Food List */}
       <div className="grid md:grid-cols-3 gap-4 mb-52">
         {/* Item 1 */}
-        <div className="flex flex-col mb-2">
+        <div className="flex flex-col mb-2 cursor-pointer"
+        onClick={() => setOpenDrawer(true)}
+        >
           <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
             {/* Badge */}
             <div className="absolute top-3 -left-2">
@@ -77,7 +81,7 @@ const Breakfast = () => {
         </div>
 
         {/* item 2 */}
-        <div className="flex flex-col mb-2">
+        <div className="flex flex-col mb-2 cursor-pointer" onClick={() => setOpenDrawer(true)}>
           <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
             {/* Badge */}
             <div className="absolute top-3 -left-2">
@@ -102,7 +106,7 @@ const Breakfast = () => {
         </div>
 
         {/* Item 3  */}
-        <div className="flex flex-col mb-2">
+        <div className="flex flex-col mb-2 cursor-pointer" onClick={() => setOpenDrawer(true)}>
           <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
             <div className="absolute top-3 right-3 bg-orange-500 text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center">
               2
@@ -121,7 +125,7 @@ const Breakfast = () => {
         </div>
 
         {/* Item 4 */}
-        <div className="flex flex-col mb-2">
+        <div className="flex flex-col mb-2 cursor-pointer" onClick={() => setOpenDrawer(true)}>
           <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
             <div className="absolute top-3 right-3 bg-orange-500 text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center">
               1
@@ -140,7 +144,7 @@ const Breakfast = () => {
         </div>
 
         {/* Item 5  */}
-        <div className="flex flex-col mb-2">
+        <div className="flex flex-col mb-2 cursor-pointer" onClick={() => setOpenDrawer(true)}>
           <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
             <img
               src="/salads.png"
@@ -156,7 +160,7 @@ const Breakfast = () => {
         </div>
 
         {/* Item 6  */}
-        <div className="flex flex-col mb-2">
+        <div className="flex flex-col mb-2 cursor-pointer" onClick={() => setOpenDrawer(true)}>
           <div className="relative bg-[#FCF7EF] rounded-2xl p-4 flex flex-col items-center">
             <img
               src="/sides.png"
@@ -171,7 +175,10 @@ const Breakfast = () => {
           <p className="text-sm text-gray-500">370 Cal</p>
         </div>
       </div>
-      <ModalCheckoutList />
+      {/* <ModalCheckoutList /> */}
+      {/* Drawer Checkout */}
+      <DrawerCheckoutList open={openDrawer} onOpenChange={setOpenDrawer} />
+   
     </div>
   );
 };
