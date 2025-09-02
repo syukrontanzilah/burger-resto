@@ -3,6 +3,7 @@
 import BannerBurger from "@/components/Banner/BannerBurger";
 import ModalCheckout from "@/components/Modal/ModalCheckout";
 import HomeProduct from "@/components/ProductList/HomeProduct";
+import { ScrollMenuHorizontal } from "@/components/ScrollMenu/ScrollMenuHorizontal";
 import React from "react";
 
 const HomePage = () => {
@@ -11,7 +12,6 @@ const HomePage = () => {
       <div className="font-sans">
         {/* Header */}
         <h1 className="text-4xl font-bold mb-3">What would you like today?</h1>
-        {/* Today’s specials */}
         <div className="space-y-3">
           <h2 className="text-lg font-semibold">Today’s specials</h2>
 
@@ -67,39 +67,7 @@ const HomePage = () => {
 
           {/* Burger Banner */}
           <BannerBurger />
-
-          {/* Menu scroll samping */}
-          <div className="flex space-x-3 overflow-x-auto no-scrollbar mt-4">
-            {/* Card 1 */}
-            <div className="flex-shrink-0 min-w-[160px] sm:w-1/3 bg-green-100 text-green-700 px-3 py-2 rounded-lg text-xs font-medium flex items-center sm:flex-row flex-col">
-              <div className="flex items-center justify-center">
-                <img src="/salads.png" alt="" className="h-14" />
-              </div>
-              <p className="text-sm sm:ml-2 mt-2 sm:mt-0 text-center sm:text-left">
-                Berry, Salad, Potato
-              </p>
-            </div>
-
-            {/* Card 2 */}
-            <div className="flex-shrink-0 min-w-[160px] sm:w-1/3 bg-yellow-100 text-yellow-700 px-3 py-2 rounded-lg text-xs font-medium flex items-center sm:flex-row flex-col">
-              <div className="flex items-center justify-center">
-                <img src="/treats.png" alt="" className="h-14" />
-              </div>
-              <p className="text-sm sm:ml-2 mt-2 sm:mt-0 text-center sm:text-left">
-                Lemonade, Ice Dream, ...
-              </p>
-            </div>
-
-            {/* Card 3 */}
-            <div className="flex-shrink-0 min-w-[160px] sm:w-1/3 bg-red-100 text-red-700 px-3 py-2 rounded-lg text-xs font-medium flex items-center sm:flex-row flex-col">
-              <div className="flex items-center justify-center">
-                <img src="/beverages.png" alt="" className="h-14" />
-              </div>
-              <p className="text-sm sm:ml-2 mt-2 sm:mt-0 text-center sm:text-left">
-                Dr Paper, Iced Tea
-              </p>
-            </div>
-          </div>
+          <ScrollMenuHorizontal/>
         </div>
 
         {/* Recommendation product/menu*/}
