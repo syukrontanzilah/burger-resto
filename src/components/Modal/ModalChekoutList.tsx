@@ -12,7 +12,7 @@ const ModalCheckoutList = () => {
         {/* Buttons */}
         <div className="flex gap-2 items-center justify-between p-6">
           <div className="flex gap-2">
-            <button className=" bg-gray-100 text-gray-700 py-2 px-4 rounded-md h-12">
+            <button className=" bg-gray-100 text-gray-700 py-2 px-4 rounded-md h-12 hidden md:block">
               Start over
             </button>
             <button className=" bg-gray-100 text-gray-700 py-2 px-4 rounded-md h-12">

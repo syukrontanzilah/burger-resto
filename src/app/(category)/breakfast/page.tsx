@@ -35,11 +35,12 @@ const Breakfast = () => {
             key={tab.value}
             onClick={() => setActiveTab(tab.value)}
             className={`px-4 py-1 rounded-md text-sm transition-colors cursor-pointer h-8
-            ${
-              activeTab === tab.value
-                ? "bg-orange-500 text-white font-semibold"
-                : "bg-gray-100 text-gray-700"
-            }`}
+      min-w-max whitespace-nowrap
+      ${
+        activeTab === tab.value
+          ? "bg-orange-500 text-white font-semibold"
+          : "bg-gray-100 text-gray-700"
+      }`}
           >
             {tab.label}
           </button>
