@@ -9,7 +9,7 @@ const DashboardLayout = ({
   return (
     <div className="flex">
       {/* Left Menu */}
-      <div className="sidebar w-[30%]  md:w-[8%] lg:w-[16%] xl:w-[30%] top-0 sticky overflow-y-auto h-screen bg-white z-20">
+      <div className="sidebar w-[30%]  md:w-[8%] lg:w-[16%] xl:w-[30%] top-0 sticky overflow-y-auto h-screen bg-white z-20 no-scrollbar">
         <Link href={"/"} className="flex p-4 items-center justify-center">
           <Image src={"/logo1.png"} alt="logo" width={130} height={30} className="transform rotate-0"/>
         </Link>

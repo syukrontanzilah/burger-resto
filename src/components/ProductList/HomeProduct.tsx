@@ -17,7 +17,7 @@ const HomeProduct = () => {
                 <img
                   src="/burger4.png"
                   alt="Chicken Sandwich"
-                  className="w-40 h-40 object-contain"
+                  className="w-40 h-40 object-contain hover:scale-110 transition duration-300 ease-in-out"
                 />
               </div>
               <p className="text-orange-600 font-semibold text-lg mt-3">
@@ -41,7 +41,7 @@ const HomeProduct = () => {
                 <img
                   src="/burger5.png"
                   alt="Chicken Sandwich"
-                  className="w-40 h-40 object-contain"
+                  className="w-40 h-40 object-contain hover:scale-110 transition duration-300 ease-in-out"
                 />
               </div>
 
@@ -60,7 +60,7 @@ const HomeProduct = () => {
                 <img
                   src="/burger6.png"
                   alt="Chicken Sandwich"
-                  className="w-40 h-40 object-contain"
+                  className="w-40 h-40 object-contain hover:scale-110 transition duration-300 ease-in-out"
                 />
               </div>
               <p className="text-orange-600 font-semibold text-lg mt-3">

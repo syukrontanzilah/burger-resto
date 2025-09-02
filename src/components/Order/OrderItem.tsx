@@ -47,7 +47,7 @@ const OrderItem: React.FC<OrderItemProps> = ({
         </div>
       </div>
 
-      <div className="flex items-center gap-2 mt-4 justify-between">
+      <div className="flex items-center gap-2 mt-4 justify-between flex-wrap md:flex-nowrap">
         {/* Qty buttons */}
         <div className="flex items-center gap-2">
           <button

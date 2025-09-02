@@ -61,7 +61,7 @@ const Breakfast = () => {
             <img
               src="/burger5.png"
               alt="Chicken Sandwich"
-              className="w-40 h-40 object-contain"
+              className="w-40 h-40 object-contain hover:scale-110 transition duration-300 ease-in-out"
             />
           </div>
 
@@ -88,7 +88,7 @@ const Breakfast = () => {
             <img
               src="/burger4.png"
               alt="Chicken Sandwich"
-              className="w-40 h-40 object-contain"
+              className="w-40 h-40 object-contain hover:scale-110 transition duration-300 ease-in-out"
             />
           </div>
 
@@ -109,7 +109,7 @@ const Breakfast = () => {
             <img
               src="/burger6.png"
               alt="Chicken Sandwich"
-              className="w-40 h-40 object-contain"
+              className="w-40 h-40 object-contain hover:scale-110 transition duration-300 ease-in-out"
             />
           </div>
           <p className="text-orange-600 font-semibold text-lg mt-3">
@@ -128,7 +128,7 @@ const Breakfast = () => {
             <img
               src="/kidsmeal.png"
               alt="Grilled Nagets"
-              className="w-40 h-40 object-contain"
+              className="w-40 h-40 object-contain hover:scale-110 transition duration-300 ease-in-out"
             />
           </div>
           <p className="text-orange-600 font-semibold text-lg mt-3">
@@ -144,7 +144,7 @@ const Breakfast = () => {
             <img
               src="/salads.png"
               alt="Salad"
-              className="w-40 h-40 object-contain"
+              className="w-40 h-40 object-contain hover:scale-110 transition duration-300 ease-in-out"
             />
           </div>
           <p className="text-orange-600 font-semibold text-lg mt-3">
@@ -160,7 +160,7 @@ const Breakfast = () => {
             <img
               src="/sides.png"
               alt="Chicken Sandwich"
-              className="w-40 h-40 object-contain"
+              className="w-40 h-40 object-contain hover:scale-110 transition duration-300 ease-in-out"
             />
           </div>
           <p className="text-orange-600 font-semibold text-lg mt-3">
