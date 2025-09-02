@@ -1,12 +1,15 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
+"use client";
 import BannerBurger from "@/components/Banner/BannerBurger";
-import ModalCheckout from "@/components/Modal/ModalCheckout";
+import DrawerCheckoutList from "@/components/Modal/DrawerCheckoutList";
 import HomeProduct from "@/components/ProductList/HomeProduct";
 import { ScrollMenuHorizontal } from "@/components/ScrollMenu/ScrollMenuHorizontal";
-import React from "react";
+import React, { useState } from "react";
 
 const HomePage = () => {
+  const [openDrawer, setOpenDrawer] = useState(false);
+
   return (
     <>
       <div className="font-sans">
@@ -67,16 +70,17 @@ const HomePage = () => {
 
           {/* Burger Banner */}
           <BannerBurger />
-          <ScrollMenuHorizontal/>
+          <ScrollMenuHorizontal />
         </div>
 
         {/* Recommendation product/menu*/}
         <div className="max-w-4xl mx-auto mt-6 mb-40">
           <h2 className="text-xl font-semibold mb-6">Recomendation</h2>
-          <HomeProduct />
+          <HomeProduct onOpenDrawer={() => setOpenDrawer(true)} />
         </div>
       </div>
-      <ModalCheckout />
+      {/* <ModalCheckout /> */}
+      <DrawerCheckoutList open={openDrawer} onOpenChange={setOpenDrawer} />
     </>
   );
 };
