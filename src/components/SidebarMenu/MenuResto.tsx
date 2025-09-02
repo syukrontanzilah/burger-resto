@@ -9,19 +9,19 @@ export const MenuResto = [
         visible: ["admin", "user", "client", ""],
       },
       {
-        icon: "/home1.png",
+        icon: "/burger4.png",
         label: "Breakfast",
         href: "/breakfast",
         visible: ["admin"],
       },
       {
-        icon: "/home1.png",
+        icon: "/burger5.png",
         label: "Deals",
         href: "/deals",
         visible: ["admin", "user"],
       },
       {
-        icon: "/entrees.png",
+        icon: "/burger6.png",
         label: "Entrées",
         href: "/entrees",
         visible: ["admin"],

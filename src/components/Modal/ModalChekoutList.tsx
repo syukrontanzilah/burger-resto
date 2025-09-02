@@ -22,11 +22,11 @@ const ModalCheckoutList = () => {
 
           <div className="flex gap-4">
             <div className="flex gap-2">
-              <div className=" flex flex-col items-center">
+              <div className=" flex flex-col items-end">
                 <span className="text-sm text-gray-500">Subtotal</span>
-                <p className="text-primary font-semibold">0 IDR</p>
+                <p className="text-primary font-semibold">387.000 IDR</p>
               </div>
-              <div>
+              <div className="flex justify-center items-center">
                 <img src="/cupbox.png" alt="subtotal" className="h-10" />
               </div>
             </div>

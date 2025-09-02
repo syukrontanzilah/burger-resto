@@ -1,0 +1,38 @@
+export const orders = [
+  {
+    id: 1,
+    image: "/burger4.png",
+    title: "Deluxe Sandwich",
+    subtitle: "Deluxe Sandwich Combo Meal",
+    description: "Nashville Crispy Fillet, Bacon Strips, Avocado Slices",
+    price: 210000,
+    quantity: 2,
+  },
+  {
+    id: 2,
+    image: "/burger5.png",
+    title: "Grilled Chicken Club Sandwich",
+    subtitle: "Deluxe Sandwich Combo Meal",
+    description: "Nashville Crispy Fillet, Bacon Strips, Avocado Slices",
+    price: 400000,
+    quantity: 1,
+  },
+  {
+    id: 3,
+    image: "/burger6.png",
+    title: "Spicy Southwest Salad",
+    subtitle: "Deluxe Sandwich Combo Meal",
+    description: "Nashville Crispy Fillet, Bacon Strips, Avocado Slices",
+    price: 250000,
+    quantity: 2,
+  },
+  {
+    id: 4,
+    image: "/sides.png",
+    title: "Fruit Cup",
+    subtitle: "Deluxe Sandwich Combo Meal",
+    description: "Nashville Crispy Fillet, Bacon Strips, Avocado Slices",
+    price: 210000,
+    quantity: 3,
+  },
+];

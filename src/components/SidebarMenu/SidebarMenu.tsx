@@ -18,7 +18,7 @@ const SidebarMenu = () => {
   };
 
   return (
-    <div className="">
+    <div className="mb-28">
       {MenuResto.map((item, index) => (
         <div key={index} className="flex flex-col gap-1 md:p-4">
           {item.items.map((menu, i) => {

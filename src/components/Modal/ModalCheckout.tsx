@@ -21,7 +21,7 @@ const ModalCheckout = () => {
 
           <div className="flex gap-4">
             <div className="flex gap-2">
-              <div className=" flex flex-col items-center">
+              <div className=" flex flex-col items-end">
                 <span className="text-sm text-gray-500">Subtotal</span>
                 <p className="text-primary font-semibold">0 IDR</p>
               </div>

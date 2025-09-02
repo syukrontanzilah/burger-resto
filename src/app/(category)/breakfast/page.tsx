@@ -126,15 +126,15 @@ const Breakfast = () => {
               1
             </div>
             <img
-              src="/burger6.png"
-              alt="Chicken Sandwich"
+              src="/kidsmeal.png"
+              alt="Grilled Nagets"
               className="w-40 h-40 object-contain"
             />
           </div>
           <p className="text-orange-600 font-semibold text-lg mt-3">
-            54.000 IDR
+            34.000 IDR
           </p>
-          <p className="text-base font-medium text-gray-900">Deluxe Sandwich</p>
+          <p className="text-base font-medium text-gray-900">Grilled Nuggets</p>
           <p className="text-sm text-gray-500">370 Cal</p>
         </div>
 
@@ -142,15 +142,15 @@ const Breakfast = () => {
         <div className="flex flex-col ">
           <div className="relative bg-[#FDFBF7] rounded-2xl p-4 flex flex-col items-center">
             <img
-              src="/burger6.png"
-              alt="Chicken Sandwich"
+              src="/salads.png"
+              alt="Salad"
               className="w-40 h-40 object-contain"
             />
           </div>
           <p className="text-orange-600 font-semibold text-lg mt-3">
-            54.000 IDR
+            10.000 IDR
           </p>
-          <p className="text-base font-medium text-gray-900">Deluxe Sandwich</p>
+          <p className="text-base font-medium text-gray-900">Salad</p>
           <p className="text-sm text-gray-500">370 Cal</p>
         </div>
 
@@ -158,15 +158,15 @@ const Breakfast = () => {
         <div className="flex flex-col ">
           <div className="relative bg-[#FDFBF7] rounded-2xl p-4 flex flex-col items-center">
             <img
-              src="/burger6.png"
+              src="/sides.png"
               alt="Chicken Sandwich"
               className="w-40 h-40 object-contain"
             />
           </div>
           <p className="text-orange-600 font-semibold text-lg mt-3">
-            54.000 IDR
+            14.000 IDR
           </p>
-          <p className="text-base font-medium text-gray-900">Deluxe Sandwich</p>
+          <p className="text-base font-medium text-gray-900">Side Dessert</p>
           <p className="text-sm text-gray-500">370 Cal</p>
         </div>
       </div>

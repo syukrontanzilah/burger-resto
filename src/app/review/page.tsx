@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
+"use client"
 import ModalReview from "@/components/Modal/ModalReview";
+import { orders } from "@/components/Order/OrderData";
 import OrderItem from "@/components/Order/OrderItem";
 import React from "react";
 
@@ -21,15 +23,26 @@ const ReviewPage = () => {
       <div className="p-6 mb-60">
         {/* Order items */}
         <div className="flex-1 p-4 space-y-7">
-          <OrderItem />
-          <OrderItem />
-          <OrderItem />
-          <OrderItem />
+          {orders.map((item) => (
+            <OrderItem
+              key={item.id}
+              image={item.image}
+              title={item.title}
+              subtitle={item.subtitle}
+              description={item.description}
+              price={item.price}
+              quantity={item.quantity}
+              onIncrease={() => console.log("Increase", item.id)}
+              onDecrease={() => console.log("Decrease", item.id)}
+              onEdit={() => console.log("Edit", item.id)}
+              onRemove={() => console.log("Remove", item.id)}
+            />
+          ))}
         </div>
       </div>
 
       {/* Fixed Total Payment Bar */}
-        <ModalReview/>
+      <ModalReview />
     </div>
   );
 };

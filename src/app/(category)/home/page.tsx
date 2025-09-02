@@ -71,20 +71,20 @@ const HomePage = () => {
           {/* Menu scroll samping */}
           <div className="flex space-x-3 overflow-x-auto no-scrollbar mt-4">
             <div className="flex-shrink-0 bg-green-100 text-green-700 px-3 py-2 rounded-lg text-xs font-medium flex items-center w-1/3">
-              <div>
-                <img src="/salads.png" alt="" />
+              <div className="flex items-center justify-center">
+                <img src="/salads.png" alt="" className="h-15 " />
               </div>
               <p className="text-sm ml-2">Berry, Salad, Potato</p>
             </div>
             <div className="flex-shrink-0 bg-yellow-100 text-yellow-700 px-3 py-2 rounded-lg text-xs font-medium flex items-center w-1/3">
               <div>
-                <img src="/treats.png" alt="" />
+                <img src="/treats.png" alt="" className="h-15 "  />
               </div>
               <p className="text-sm ml-2">Lemonade, Ice Dream, ...</p>
             </div>
             <div className="flex-shrink-0 bg-red-100 text-red-700 px-3 py-2 rounded-lg font-medium flex items-center w-1/3">
               <div>
-                <img src="/beverages.png" alt="" />
+                <img src="/beverages.png" alt="" className="h-15 "  />
               </div>
               <p className="text-sm ml-2">Dr Paper, Iced Tea</p>
             </div>
